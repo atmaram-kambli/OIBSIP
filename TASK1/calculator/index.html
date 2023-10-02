@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A simple calculator web-based application">
-    <title>Calculator || OIBSIP</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator | OIBSIP</title>
 </head>
 <body>
+    <div class="main-container">
+        <div class="display">
+            <div id="prev-input">vvgvnbvnbvnbvnbv</div>
+            <input type="text" id ="expr" class="input-box" value = "0">
+        </div>
+        <div class="buttons">
+            <div class="first-row">
+                <button class="u-btn btn op">(</button>
+                <button class="u-btn btn op">)</button>
+                <button class="u-btn btn op">ans</button>
+                <button class="u-btn btn op">del</button>
+                <button class="u-btn btn op">clear</button>
+            </div>
+            <div class="middle-rows">
+                <div class="row-2">
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn op">%</button>
+                    <button class="btn op">sqrt</button>
+                </div>
+                <div class="row-3">
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn op">*</button>
+                    <button class="btn op">/</button>
+
+                </div>
+                <div class="row-4">
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn op">+</button>
+                    <button class="btn op">-</button>
+                </div>
+            </div>
+            <div class="last-row">
+                <button class="btn op">.</button>
+                <button class="btn">0</button>
+                <button class="btn op">+/-</button>
+                <button class="btn enter">Enter</button>
+            </div>
+        </div>
+    </div>
     
+    <script src="js/script.js"></script>
 </body>
 </html>
