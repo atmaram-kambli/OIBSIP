@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Varela Round', sans-serif;
+}
+
+:root {
+    --primary-color: ;
+    --secondary-color: #153c66;
+    --text-color: #153c66;
+    --text-color1: #5d7aab;
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+
+body {
+    background: url(/bg-img.webp) no-repeat center;
+    background-size: cover;
+    box-shadow: 3px 3px 20px 2px var(--text-color1) inset;
+}
+
+.container {
+    padding-top: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    margin: 30px;
+}
+.heading > h1,h2 {
+    color: var(--text-color);
+    font-weight: 600;
+    font-family: Garamond,serif;
+}
+.name {
+    font-size: 3.5rem;
+}
+.heading > h2 {
+    text-align: center;
+    display: block;
+    font-size: 1.7rem;
+}
+
+.content {
+    margin: 30px;
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+.set {
+    position: absolute;
+    top: -13px;
+    left: 12px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 3px 2px 3px 20px;
+    display: inline-block;
+    width: 280px;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+}
+img {
+    border: 2px solid var(--secondary-color);
+    box-shadow: 5px 5px 20px 5px var(--text-color1);
+
+}
+.row > .set {
+    width: 250px;
+}
+
+.left {
+    position: relative;
+    margin: 20px;
+    padding: 35px 40px;
+    padding-bottom: 0;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 5px 5px 20px 10px var(--text-color1);
+    background-color: white;
+    opacity: 0.9;
+    height: 625px;
+}
+.left > p {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--text-color1);
+}
+.right {
+    margin: 20px;
+}
+.row {
+    position: relative;
+    padding: 35px 40px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: var(--text-color1);
+    background-color: white;
+    opacity: 0.9;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 2px 2px 10px 5px var(--text-color1);
+}
+.row-2, .row-1 {
+    margin-top: 20px;
+}
+
+
+
+
