@@ -25,7 +25,7 @@
             <label for="description-input">Description</label>
             <textarea placeholder="Description" id="description-input" value="" rows="10"></textarea>
           </div>
-          <button class="save-button" onclick="handleSave(this.parentNode)">Save</button>
+          <button class="save-button" onclick="handleSave()">Save</button>
         </div>
       <!-- </div> -->
         
@@ -37,16 +37,6 @@
             </div>
             <hr class="hr" />
             <div class="todos">
-              <div class="info-info">
-                <div class="info-title">${todo.title}</div>
-                <div class="info-desc">${todo.desc}</div>
-                <div class="info-del">
-                <button class="cross-btn" onclick='deleteNote()'>
-                    <div class="line-1 line"></div>
-                    <div class="line-2 line"></div>
-                </button>
-                </div>
-            </div>
             </div>
         </div>
       </div>
