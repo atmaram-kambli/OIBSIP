@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ToDoList is the simple web application to store your ToDo tasks in place to get reminder">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <title>ToDoList || OIBSIP</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="#">To-Do List Web App</a>
+    </div>
+    <div class="container">
+        <div class="column1">
+          <div class="input-section">
+            <label for="title-input">Title</label>
+            <input type="text" id="title-input" placeholder="Title" value="">
+          </div>
+          <div class="input-section">
+            <label for="description-input">Description</label>
+            <textarea placeholder="Description" id="description-input" value="" rows="10"></textarea>
+          </div>
+          <button class="save-button" onclick="handleSave()">Save</button>
+        </div>
+        
+        <div class="column2">
+            <div class="info-head">
+                <div class="head-title">Title</div>
+                <div class="head-desc">Description</div>
+                <div class="head-del">Delete</div>
+            </div>
+            <hr class="hr" />
+            <div class="todos">
+
+              <div class="info-info">
+                <P class="head-title info-title">Title</P>
+                <P class="head-desc info-desc">Description</P>
+
+                  <div class="head-del info-del">
+                    <button class="cross-btn">
+                      <div class="line-1 line"></div>
+                      <div class="line-2 line"></div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
