@@ -11,7 +11,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
 }
 
 
@@ -40,12 +39,11 @@ body {
 .container {
     margin: 30px 50px;
     display: flex;
-    /* flex: 1; */
-    justify-content: space-around;
 }
 
 .column1 {
     flex-basis: 300px;
+    max-height: 350px;
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -54,13 +52,11 @@ body {
 }
 
 .column2 {
-    /* width: 65%; */
     flex-basis: 300px;
     max-width: 850px;
     flex-grow: 1;
     margin: 20px;
     padding: 20px;
-    /* background-color: #f2f2f2; */
 }
 label {
     display: block;
@@ -100,7 +96,6 @@ label {
 
 .head-title {
     flex-basis: 250px;
-    /* flex-grow: 1; */
 }
 .head-desc {
     flex-basis: 200px;
@@ -114,8 +109,7 @@ label {
 
 .info-info {
     width: 100%;
-    /* min-height: 30px; */
-    /* max-width: 65vw; */
+    min-height: 30px;
     padding: 18px 8px;
     margin: 10px 0;
     display: flex;
@@ -126,13 +120,15 @@ label {
     color: black;
 }
 .info-title {
-    flex-basis: 200px;
+    flex-basis: 230px;
     margin: 0px 5px;
     width: 200px; /* Set a specific width for the description */
     white-space: PRE-wrap;
     word-wrap: break-word;
 }
 .info-desc {
+    flex-basis: 200px;
+    flex-grow: 2;
     margin: 0px 5px;
     width: 200px; /* Set a specific width for the description */
     white-space: PRE-wrap;
@@ -147,6 +143,7 @@ label {
     border-radius: 4px;
     cursor: pointer;
     padding-top: 5px;   
+    margin: 0px 5px;
 }
 .line
 {
