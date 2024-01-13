@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>OIBSIP - TASK04</title>
+</head>
+<body> 
+    <div class="main-container">
+        <nav class="navbar">
+            <h2>LogAuth</h2>
+            <ul>
+                <li>Login</li>
+                <li>SignUp</li>
+            </ul>
+        </nav>
+        <h2 class="head">We are at the heart of secure Authentication</h2>
+        <div class="login-box">
+            <div class="login-head">
+                <h3>Login with LogAuth..</h3>
+            </div>
+            <div class="login">
+                <form id="login-form" class="form" role="form" action="secure.html">
+                <!-- <form id="login-form" class="form" role="form"> -->
+                    <div class="input-div">
+                        <!-- <label for="email">E-mail</label> -->
+                        <input type="text" id="email" placeholder="Email">
+                    </div>
+                    <div class="input-div">
+                        <!-- <label for="pass">Password</label> -->
+                        <input type="password" id="pass" placeholder="Password">
+                    </div>
+                    <div class="input-div">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+            <div class="login-footer">
+                <span>
+                    <button id="signup-mode" class="btn">Click here</button> to register a new account
+                </span>
+            </div>
+        </div>
+
+
+
+
+        <div class="signup-box">
+            <div class="login-head">
+                <h3>SignUp with LogAuth..</h3>
+            </div>
+
+            <div class="signin">
+                <form id="signup-form" class="form" role="form" action="index.html">
+                <!-- <form id="signup-form" class="form" role="form" method="post" action="secure.html"> -->
+                    <div class="input-div">
+                        <input type="text" class="form-control" name="full_name" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="input-div">
+                        <input type="text" class="form-control" name="phone" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="input-div">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-div">
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+
+
+                    <div class="input-div">
+                        <button type="submit" >Create Account</button>
+                    </div>
+                </form>
+            </div>
+            <div class="login-footer">
+                <span>Already have an account?
+                    <button id="login-mode" class="btn" data-target="#login-modal">Login</button>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <h5>&copy; 2023 Copyright LogAuth</h5>
+        </div>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
